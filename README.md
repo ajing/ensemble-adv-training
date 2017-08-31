@@ -1,3 +1,5 @@
+Slightly modified for python3
+
 # Ensemble Adversarial Training
 
 This repository contains code to reproduce results from the paper:
