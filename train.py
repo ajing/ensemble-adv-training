@@ -15,7 +15,7 @@ def main(model_name, model_type):
     np.random.seed(0)
     assert keras.backend.backend() == "tensorflow"
     set_mnist_flags()
-    
+
     flags.DEFINE_bool('NUM_EPOCHS', args.epochs, 'Number of epochs')
 
     # Get MNIST test data
@@ -41,7 +41,7 @@ def main(model_name, model_type):
     print('Test error: %.1f%%' % test_error)
     save_model(model, model_name)
     json_string = model.to_json()
-    with open(model_name+'.json', 'wr') as f:
+    with open(model_name+'.json', 'w+') as f:
         f.write(json_string)
 
 
