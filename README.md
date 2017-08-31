@@ -1,4 +1,4 @@
-Slightly modified for python3
+**Slightly modified for python3**
 
 # Ensemble Adversarial Training
 
