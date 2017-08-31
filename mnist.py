@@ -49,7 +49,7 @@ def data_mnist(one_hot=True):
     print(X_train.shape[0], 'train samples')
     print(X_test.shape[0], 'test samples')
 
-    print "Loaded MNIST test data."
+    print("Loaded MNIST test data.")
 
     if one_hot:
         # convert class vectors to binary class matrices
